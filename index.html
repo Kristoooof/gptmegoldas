@@ -12,7 +12,7 @@
             justify-content: center;
             /* height: 350px; */
             align-items: center;
-            background-color: rgba(253, 219, 66, 0.774);
+            background-color: rgb(5, 114, 5);;
         }
 
         .kartya {
@@ -23,6 +23,15 @@
             background-color: aqua;
             box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.445);
 
+        }
+        
+        @media screen and (min-width: 880px) {
+            .kartyak {
+                background-color: rgba(253, 219, 66, 0.774) ;
+            }
+            #kakukk{
+                display: none;
+            }
         }
     </style>
 </head>
@@ -41,7 +50,7 @@
         <div class="kartya">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio molestiae voluptatibus
             animi, reprehenderit quisquam ipsum eius temporibus facere perferendis aperiam minima veniam, pariatur
             placeat! Beatae, nostrum amet. Aliquid, harum qui?</div>
-        <div class="kartya" style="background-color: red;">Kakuktojás</div>
+        <div id="kakukk" class="kartya" style="background-color: red;">Kakuktojás</div>
         <div class="kartya">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum voluptate consectetur aliquam
             porro libero nihil fugiat, perspiciatis eum recusandae consequuntur ad. Voluptatibus quidem aliquid
             repellendus at odio dolorem eveniet veritatis.</div>
